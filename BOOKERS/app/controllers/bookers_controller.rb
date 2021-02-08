@@ -3,6 +3,7 @@ class BookersController < ApplicationController
   end
 
   def index
+    @booker = Bookers.all
   end
 
   def edit
